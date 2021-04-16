@@ -1,0 +1,34 @@
+/**
+* @name AnimeTheme
+* @author Treimy
+* @version 1.0
+* @description A simple Theme to switch the Background
+* https://github.com/Treimy143/Discord-themes-normal-mit-erweiterungen
+*/
+
+/* Witere Hintergründe */
+:root{
+    --list-text: "(Hier den Text Eingeben)";
+    --Background-1: url(https://rog.asus.com/media/1596108571749.jpg);
+    --Background-2: url();
+    --Background-3: url();
+}
+
+
+/* Einstellungen */
+:root{
+    --background:var(--Background-1);
+
+    --spreak-color: rgb(221, 24, 155);   
+}
+
+/* transparency made to work with gradients */
+/* Background Image */
+.da-appMount {
+	background: var(--background-image);
+}
+
+/* removing backgrounds */
+.container-2lgZY8, .channels-Ie2l6A, .da-app .layer-3QrUeG, .da-app .layers-3iHuyZ, .da-app .chat-3bRxxu, .da-app .channelTextArea-rNsIhG, .da-app .content-yTz4x3, .da-app .messagesWrapper-3lZDfY, .da-app .chat-3bRxxu form, .da-app .members-1998pB, .da-app .headerBar-UHpsPw, .da-app .standardSidebarView-3F1I7i, .da-app .typing-2GQL18 {
+	background: transparent;
+}
